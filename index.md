@@ -1,3 +1,10 @@
+<div class="searchbox">
+  <form method="get" action="http://www.bing.com/search">
+    <input id="searchinput" type="text" placeholder="Search..." name="q" value="" /> 
+    <input type="hidden" name="q1" value="site:{{site.production_url}}" />
+  </form>
+</div>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ObanPearson/Binary-Tool-Kit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
