@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 - name: Azure Static Web Apps Deploy
   uses: Azure/static-web-apps-deploy@v0.0.1-preview
+- name: Deploy Flutter web app to github pages
+  uses: erickzanardo/flutter-gh-pages@v2
