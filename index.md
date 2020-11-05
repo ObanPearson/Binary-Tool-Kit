@@ -36,3 +36,6 @@
 <!ELEMENT false EMPTY> <!-- Boolean constant false -->
 <!ELEMENT real (#PCDATA)> <!-- Contents should represent a floating point number matching ("+" | "-")? d+ ("."d*)? ("E" ("+" | "-") d+)? where d is a digit 0-9.  -->
 <!ELEMENT integer (#PCDATA)> <!-- Contents should represent a (possibly signed) integer number in base 10 -->
+- name: Deploy Flutter web app to github pages
+  uses: erickzanardo/flutter-gh-pages@v2
+
