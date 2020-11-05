@@ -4,7 +4,18 @@
     <input type="hidden" name="q1" value="site:{{site.production_url}}" />
   </form>
 </div>
+.searchbox {
+  float:right;
+  width: 50%;
+  padding: 3px;
+  border:0;
+  outline: none;
+  vertical-align: bottom;
+}
 
+#searchinput {
+  width:100%;
+}
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ObanPearson/Binary-Tool-Kit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
